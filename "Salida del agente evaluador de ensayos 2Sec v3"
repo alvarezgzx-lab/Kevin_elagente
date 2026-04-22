@@ -1,0 +1,346 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Salida del agente evaluador de ensayos 2Sec v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ID_Alumno",
+    "Nomenclatura_Archivo",
+    "Estatus_Revision",
+    "Causa_Ilegibilidad",
+    "Verificacion_Transcripcion",
+    "Texto_Manuscrito_Transcrito",
+    "Comparacion_Transcripcion",
+    "Modo_De_Cotejo",
+    "Cobertura_Legible",
+    "Porcentaje_Ilegible",
+    "Coeficiente_Legibilidad",
+    "Palabras_Totales_Texto_Digital",
+    "Palabras_Cotejables",
+    "Palabras_No_Cotejables",
+    "Palabras_Contradictorias",
+    "Probabilidad_Alteracion",
+    "Penalizacion_Trazo",
+    "Decision_Operativa",
+    "Uso_Verificacion_Asistida",
+    "Segmentos_Dudosos",
+    "Tipo_De_Ensayo_Identificado",
+    "Puntaje_Bruto_12",
+    "Puntaje_Base10",
+    "Puntaje_Total",
+    "Nivel_Global",
+    "Evaluacion_Por_Criterio",
+    "Conclusion_Breve"
+  ],
+  "properties": {
+    "ID_Alumno": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{3}$"
+    },
+    "Nomenclatura_Archivo": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^2[A-D](0[1-9]|[1-2][0-9]|3[0-7])$"
+    },
+    "Estatus_Revision": {
+      "type": "string",
+      "enum": [
+        "valido",
+        "archivo_no_identificado",
+        "entrega_invalida",
+        "verificacion_incompleta"
+      ]
+    },
+    "Causa_Ilegibilidad": {
+      "type": "string",
+      "enum": [
+        "ninguna",
+        "calidad_imagen",
+        "trazo_caligrafico",
+        "mixta",
+        "indeterminada"
+      ]
+    },
+    "Verificacion_Transcripcion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "Resultado",
+        "Observaciones"
+      ],
+      "properties": {
+        "Resultado": {
+          "type": "string",
+          "enum": [
+            "coincidencia_total",
+            "cotejo_parcial",
+            "no_coincide",
+            "verificacion_incompleta"
+          ]
+        },
+        "Observaciones": {
+          "type": "string"
+        }
+      }
+    },
+    "Texto_Manuscrito_Transcrito": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Comparacion_Transcripcion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "Coincide_Plenamente",
+        "Motivo"
+      ],
+      "properties": {
+        "Coincide_Plenamente": {
+          "type": "string",
+          "enum": [
+            "Sí",
+            "No",
+            "No verificable"
+          ]
+        },
+        "Motivo": {
+          "type": "string"
+        }
+      }
+    },
+    "Modo_De_Cotejo": {
+      "type": "string",
+      "enum": [
+        "total",
+        "parcial",
+        "no_verificable"
+      ]
+    },
+    "Cobertura_Legible": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Porcentaje_Ilegible": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Coeficiente_Legibilidad": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Palabras_Totales_Texto_Digital": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "Palabras_Cotejables": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "Palabras_No_Cotejables": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "Palabras_Contradictorias": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "Probabilidad_Alteracion": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Penalizacion_Trazo": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        null
+      ]
+    },
+    "Decision_Operativa": {
+      "type": "string",
+      "enum": [
+        "evaluacion_normal",
+        "evaluacion_con_penalizacion_por_trazo",
+        "solicitar_recaptura_o_revision_manual",
+        "entrega_invalida_por_alteracion",
+        "no_evaluable_por_identificacion"
+      ]
+    },
+    "Uso_Verificacion_Asistida": {
+      "type": "string",
+      "enum": [
+        "Sí",
+        "No"
+      ]
+    },
+    "Segmentos_Dudosos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "Fragmento_Manuscrito_Dudoso",
+          "Hipotesis_Desde_Texto_Digital",
+          "Cotejo_De_Trazo",
+          "Resultado"
+        ],
+        "properties": {
+          "Fragmento_Manuscrito_Dudoso": {
+            "type": "string"
+          },
+          "Hipotesis_Desde_Texto_Digital": {
+            "type": "string"
+          },
+          "Cotejo_De_Trazo": {
+            "type": "string"
+          },
+          "Resultado": {
+            "type": "string",
+            "enum": [
+              "confirmado_por_trazo",
+              "no_confirmable",
+              "contradice_texto_digital"
+            ]
+          }
+        }
+      }
+    },
+    "Tipo_De_Ensayo_Identificado": {
+      "type": "string",
+      "enum": [
+        "expositivo",
+        "argumentativo",
+        "critico",
+        "literario",
+        "tipo_no_claro",
+        "no_aplica"
+      ]
+    },
+    "Puntaje_Bruto_12": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 12
+    },
+    "Puntaje_Base10": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 10
+    },
+    "Puntaje_Total": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 10
+    },
+    "Nivel_Global": {
+      "type": "string",
+      "enum": [
+        "Alto",
+        "Medio",
+        "Básico",
+        "Insuficiente",
+        "Entrega inválida por falta de fidelidad en la transcripción",
+        "No evaluable",
+        "Revisión manual sugerida"
+      ]
+    },
+    "Evaluacion_Por_Criterio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "Numero",
+          "Criterio",
+          "Nivel",
+          "Puntaje",
+          "Fortaleza",
+          "Area_De_Mejora"
+        ],
+        "properties": {
+          "Numero": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "Criterio": {
+            "type": "string"
+          },
+          "Nivel": {
+            "type": "string",
+            "enum": [
+              "Cumple",
+              "Cumple parcialmente",
+              "No cumple",
+              "No aplica"
+            ]
+          },
+          "Puntaje": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 2
+          },
+          "Fortaleza": {
+            "type": "string"
+          },
+          "Area_De_Mejora": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Conclusion_Breve": {
+      "type": "string"
+    }
+  }
+}
