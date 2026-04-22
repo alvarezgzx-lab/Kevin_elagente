@@ -1,0 +1,737 @@
+[
+  {
+    "Nomenclatura_Archivo": "2A01",
+    "Matricula": "222232",
+    "ID_Alumno": "001"
+  },
+  {
+    "Nomenclatura_Archivo": "2A02",
+    "Matricula": "243105",
+    "ID_Alumno": "002"
+  },
+  {
+    "Nomenclatura_Archivo": "2A03",
+    "Matricula": "182163",
+    "ID_Alumno": "003"
+  },
+  {
+    "Nomenclatura_Archivo": "2A04",
+    "Matricula": "192071",
+    "ID_Alumno": "004"
+  },
+  {
+    "Nomenclatura_Archivo": "2A05",
+    "Matricula": "171166",
+    "ID_Alumno": "005"
+  },
+  {
+    "Nomenclatura_Archivo": "2A06",
+    "Matricula": "182077",
+    "ID_Alumno": "006"
+  },
+  {
+    "Nomenclatura_Archivo": "2A07",
+    "Matricula": "171436",
+    "ID_Alumno": "007"
+  },
+  {
+    "Nomenclatura_Archivo": "2A08",
+    "Matricula": "182021",
+    "ID_Alumno": "008"
+  },
+  {
+    "Nomenclatura_Archivo": "2A09",
+    "Matricula": "171262",
+    "ID_Alumno": "009"
+  },
+  {
+    "Nomenclatura_Archivo": "2A10",
+    "Matricula": "232114",
+    "ID_Alumno": "010"
+  },
+  {
+    "Nomenclatura_Archivo": "2A11",
+    "Matricula": "243068",
+    "ID_Alumno": "011"
+  },
+  {
+    "Nomenclatura_Archivo": "2A12",
+    "Matricula": "161322",
+    "ID_Alumno": "012"
+  },
+  {
+    "Nomenclatura_Archivo": "2A13",
+    "Matricula": "222153",
+    "ID_Alumno": "013"
+  },
+  {
+    "Nomenclatura_Archivo": "2A14",
+    "Matricula": "1406004",
+    "ID_Alumno": "014"
+  },
+  {
+    "Nomenclatura_Archivo": "2A15",
+    "Matricula": "1406005",
+    "ID_Alumno": "015"
+  },
+  {
+    "Nomenclatura_Archivo": "2A16",
+    "Matricula": "182028",
+    "ID_Alumno": "016"
+  },
+  {
+    "Nomenclatura_Archivo": "2A17",
+    "Matricula": "1501031",
+    "ID_Alumno": "017"
+  },
+  {
+    "Nomenclatura_Archivo": "2A18",
+    "Matricula": "202231",
+    "ID_Alumno": "018"
+  },
+  {
+    "Nomenclatura_Archivo": "2A19",
+    "Matricula": "253270",
+    "ID_Alumno": "019"
+  },
+  {
+    "Nomenclatura_Archivo": "2A20",
+    "Matricula": "171239",
+    "ID_Alumno": "020"
+  },
+  {
+    "Nomenclatura_Archivo": "2A21",
+    "Matricula": "253105",
+    "ID_Alumno": "021"
+  },
+  {
+    "Nomenclatura_Archivo": "2A22",
+    "Matricula": "202114",
+    "ID_Alumno": "022"
+  },
+  {
+    "Nomenclatura_Archivo": "2A23",
+    "Matricula": "182121",
+    "ID_Alumno": "023"
+  },
+  {
+    "Nomenclatura_Archivo": "2A24",
+    "Matricula": "202092",
+    "ID_Alumno": "024"
+  },
+  {
+    "Nomenclatura_Archivo": "2A25",
+    "Matricula": "182058",
+    "ID_Alumno": "025"
+  },
+  {
+    "Nomenclatura_Archivo": "2A26",
+    "Matricula": "171388",
+    "ID_Alumno": "026"
+  },
+  {
+    "Nomenclatura_Archivo": "2A27",
+    "Matricula": "212109",
+    "ID_Alumno": "027"
+  },
+  {
+    "Nomenclatura_Archivo": "2A28",
+    "Matricula": "243076",
+    "ID_Alumno": "028"
+  },
+  {
+    "Nomenclatura_Archivo": "2A29",
+    "Matricula": "212193",
+    "ID_Alumno": "029"
+  },
+  {
+    "Nomenclatura_Archivo": "2A30",
+    "Matricula": "171220",
+    "ID_Alumno": "030"
+  },
+  {
+    "Nomenclatura_Archivo": "2A31",
+    "Matricula": "182145",
+    "ID_Alumno": "031"
+  },
+  {
+    "Nomenclatura_Archivo": "2A32",
+    "Matricula": "1406006",
+    "ID_Alumno": "032"
+  },
+  {
+    "Nomenclatura_Archivo": "2A33",
+    "Matricula": "161044",
+    "ID_Alumno": "033"
+  },
+  {
+    "Nomenclatura_Archivo": "2A34",
+    "Matricula": "243121",
+    "ID_Alumno": "034"
+  },
+  {
+    "Nomenclatura_Archivo": "2A35",
+    "Matricula": "182343",
+    "ID_Alumno": "035"
+  },
+  {
+    "Nomenclatura_Archivo": "2A36",
+    "Matricula": "192351",
+    "ID_Alumno": "036"
+  },
+  {
+    "Nomenclatura_Archivo": "2A37",
+    "Matricula": "202116",
+    "ID_Alumno": "037"
+  },
+  {
+    "Nomenclatura_Archivo": "2B01",
+    "Matricula": "161287",
+    "ID_Alumno": "038"
+  },
+  {
+    "Nomenclatura_Archivo": "2B02",
+    "Matricula": "1406014",
+    "ID_Alumno": "039"
+  },
+  {
+    "Nomenclatura_Archivo": "2B03",
+    "Matricula": "192278",
+    "ID_Alumno": "040"
+  },
+  {
+    "Nomenclatura_Archivo": "2B04",
+    "Matricula": "222329",
+    "ID_Alumno": "041"
+  },
+  {
+    "Nomenclatura_Archivo": "2B05",
+    "Matricula": "182165",
+    "ID_Alumno": "042"
+  },
+  {
+    "Nomenclatura_Archivo": "2B06",
+    "Matricula": "1406003",
+    "ID_Alumno": "043"
+  },
+  {
+    "Nomenclatura_Archivo": "2B07",
+    "Matricula": "232004",
+    "ID_Alumno": "044"
+  },
+  {
+    "Nomenclatura_Archivo": "2B08",
+    "Matricula": "232204",
+    "ID_Alumno": "045"
+  },
+  {
+    "Nomenclatura_Archivo": "2B09",
+    "Matricula": "161037",
+    "ID_Alumno": "046"
+  },
+  {
+    "Nomenclatura_Archivo": "2B10",
+    "Matricula": "243007",
+    "ID_Alumno": "047"
+  },
+  {
+    "Nomenclatura_Archivo": "2B11",
+    "Matricula": "1501001",
+    "ID_Alumno": "048"
+  },
+  {
+    "Nomenclatura_Archivo": "2B12",
+    "Matricula": "1501037",
+    "ID_Alumno": "049"
+  },
+  {
+    "Nomenclatura_Archivo": "2B13",
+    "Matricula": "182317",
+    "ID_Alumno": "050"
+  },
+  {
+    "Nomenclatura_Archivo": "2B14",
+    "Matricula": "182025",
+    "ID_Alumno": "051"
+  },
+  {
+    "Nomenclatura_Archivo": "2B15",
+    "Matricula": "171068",
+    "ID_Alumno": "052"
+  },
+  {
+    "Nomenclatura_Archivo": "2B16",
+    "Matricula": "192290",
+    "ID_Alumno": "053"
+  },
+  {
+    "Nomenclatura_Archivo": "2B17",
+    "Matricula": "1406002",
+    "ID_Alumno": "054"
+  },
+  {
+    "Nomenclatura_Archivo": "2B18",
+    "Matricula": "182353",
+    "ID_Alumno": "055"
+  },
+  {
+    "Nomenclatura_Archivo": "2B19",
+    "Matricula": "171227",
+    "ID_Alumno": "056"
+  },
+  {
+    "Nomenclatura_Archivo": "2B20",
+    "Matricula": "1501016",
+    "ID_Alumno": "057"
+  },
+  {
+    "Nomenclatura_Archivo": "2B21",
+    "Matricula": "171472",
+    "ID_Alumno": "058"
+  },
+  {
+    "Nomenclatura_Archivo": "2B22",
+    "Matricula": "1501018",
+    "ID_Alumno": "059"
+  },
+  {
+    "Nomenclatura_Archivo": "2B23",
+    "Matricula": "253153",
+    "ID_Alumno": "060"
+  },
+  {
+    "Nomenclatura_Archivo": "2B24",
+    "Matricula": "1501020",
+    "ID_Alumno": "061"
+  },
+  {
+    "Nomenclatura_Archivo": "2B25",
+    "Matricula": "182183",
+    "ID_Alumno": "062"
+  },
+  {
+    "Nomenclatura_Archivo": "2B26",
+    "Matricula": "232127",
+    "ID_Alumno": "063"
+  },
+  {
+    "Nomenclatura_Archivo": "2B27",
+    "Matricula": "202290",
+    "ID_Alumno": "064"
+  },
+  {
+    "Nomenclatura_Archivo": "2B28",
+    "Matricula": "232059",
+    "ID_Alumno": "065"
+  },
+  {
+    "Nomenclatura_Archivo": "2B29",
+    "Matricula": "243155",
+    "ID_Alumno": "066"
+  },
+  {
+    "Nomenclatura_Archivo": "2B30",
+    "Matricula": "202093",
+    "ID_Alumno": "067"
+  },
+  {
+    "Nomenclatura_Archivo": "2B31",
+    "Matricula": "1406007",
+    "ID_Alumno": "068"
+  },
+  {
+    "Nomenclatura_Archivo": "2B32",
+    "Matricula": "192308",
+    "ID_Alumno": "069"
+  },
+  {
+    "Nomenclatura_Archivo": "2B33",
+    "Matricula": "171221",
+    "ID_Alumno": "070"
+  },
+  {
+    "Nomenclatura_Archivo": "2B34",
+    "Matricula": "171264",
+    "ID_Alumno": "071"
+  },
+  {
+    "Nomenclatura_Archivo": "2B35",
+    "Matricula": "222349",
+    "ID_Alumno": "072"
+  },
+  {
+    "Nomenclatura_Archivo": "2B36",
+    "Matricula": "182034",
+    "ID_Alumno": "073"
+  },
+  {
+    "Nomenclatura_Archivo": "2C01",
+    "Matricula": "1306024",
+    "ID_Alumno": "074"
+  },
+  {
+    "Nomenclatura_Archivo": "2C02",
+    "Matricula": "192158",
+    "ID_Alumno": "075"
+  },
+  {
+    "Nomenclatura_Archivo": "2C03",
+    "Matricula": "182164",
+    "ID_Alumno": "076"
+  },
+  {
+    "Nomenclatura_Archivo": "2C04",
+    "Matricula": "182020",
+    "ID_Alumno": "077"
+  },
+  {
+    "Nomenclatura_Archivo": "2C05",
+    "Matricula": "1401028",
+    "ID_Alumno": "078"
+  },
+  {
+    "Nomenclatura_Archivo": "2C06",
+    "Matricula": "182022",
+    "ID_Alumno": "079"
+  },
+  {
+    "Nomenclatura_Archivo": "2C07",
+    "Matricula": "243123",
+    "ID_Alumno": "080"
+  },
+  {
+    "Nomenclatura_Archivo": "2C08",
+    "Matricula": "1406008",
+    "ID_Alumno": "081"
+  },
+  {
+    "Nomenclatura_Archivo": "2C09",
+    "Matricula": "182018",
+    "ID_Alumno": "082"
+  },
+  {
+    "Nomenclatura_Archivo": "2C10",
+    "Matricula": "161250",
+    "ID_Alumno": "083"
+  },
+  {
+    "Nomenclatura_Archivo": "2C11",
+    "Matricula": "171036",
+    "ID_Alumno": "084"
+  },
+  {
+    "Nomenclatura_Archivo": "2C12",
+    "Matricula": "222122",
+    "ID_Alumno": "085"
+  },
+  {
+    "Nomenclatura_Archivo": "2C13",
+    "Matricula": "202175",
+    "ID_Alumno": "086"
+  },
+  {
+    "Nomenclatura_Archivo": "2C14",
+    "Matricula": "161071",
+    "ID_Alumno": "087"
+  },
+  {
+    "Nomenclatura_Archivo": "2C15",
+    "Matricula": "222180",
+    "ID_Alumno": "088"
+  },
+  {
+    "Nomenclatura_Archivo": "2C16",
+    "Matricula": "182149",
+    "ID_Alumno": "089"
+  },
+  {
+    "Nomenclatura_Archivo": "2C17",
+    "Matricula": "243130",
+    "ID_Alumno": "090"
+  },
+  {
+    "Nomenclatura_Archivo": "2C18",
+    "Matricula": "171070",
+    "ID_Alumno": "091"
+  },
+  {
+    "Nomenclatura_Archivo": "2C19",
+    "Matricula": "243023",
+    "ID_Alumno": "092"
+  },
+  {
+    "Nomenclatura_Archivo": "2C20",
+    "Matricula": "1501004",
+    "ID_Alumno": "093"
+  },
+  {
+    "Nomenclatura_Archivo": "2C21",
+    "Matricula": "1501013",
+    "ID_Alumno": "094"
+  },
+  {
+    "Nomenclatura_Archivo": "2C22",
+    "Matricula": "182006",
+    "ID_Alumno": "095"
+  },
+  {
+    "Nomenclatura_Archivo": "2C23",
+    "Matricula": "243058",
+    "ID_Alumno": "096"
+  },
+  {
+    "Nomenclatura_Archivo": "2C24",
+    "Matricula": "222330",
+    "ID_Alumno": "097"
+  },
+  {
+    "Nomenclatura_Archivo": "2C25",
+    "Matricula": "232005",
+    "ID_Alumno": "098"
+  },
+  {
+    "Nomenclatura_Archivo": "2C26",
+    "Matricula": "1501043",
+    "ID_Alumno": "099"
+  },
+  {
+    "Nomenclatura_Archivo": "2C27",
+    "Matricula": "161233",
+    "ID_Alumno": "100"
+  },
+  {
+    "Nomenclatura_Archivo": "2C28",
+    "Matricula": "222351",
+    "ID_Alumno": "101"
+  },
+  {
+    "Nomenclatura_Archivo": "2C29",
+    "Matricula": "182023",
+    "ID_Alumno": "102"
+  },
+  {
+    "Nomenclatura_Archivo": "2C30",
+    "Matricula": "182380",
+    "ID_Alumno": "103"
+  },
+  {
+    "Nomenclatura_Archivo": "2C31",
+    "Matricula": "182171",
+    "ID_Alumno": "104"
+  },
+  {
+    "Nomenclatura_Archivo": "2C32",
+    "Matricula": "222017",
+    "ID_Alumno": "105"
+  },
+  {
+    "Nomenclatura_Archivo": "2C33",
+    "Matricula": "222093",
+    "ID_Alumno": "106"
+  },
+  {
+    "Nomenclatura_Archivo": "2C34",
+    "Matricula": "171230",
+    "ID_Alumno": "107"
+  },
+  {
+    "Nomenclatura_Archivo": "2C35",
+    "Matricula": "192350",
+    "ID_Alumno": "108"
+  },
+  {
+    "Nomenclatura_Archivo": "2C36",
+    "Matricula": "182033",
+    "ID_Alumno": "109"
+  },
+  {
+    "Nomenclatura_Archivo": "2C37",
+    "Matricula": "1406001",
+    "ID_Alumno": "110"
+  },
+  {
+    "Nomenclatura_Archivo": "2D01",
+    "Matricula": "182080",
+    "ID_Alumno": "111"
+  },
+  {
+    "Nomenclatura_Archivo": "2D02",
+    "Matricula": "161231",
+    "ID_Alumno": "112"
+  },
+  {
+    "Nomenclatura_Archivo": "2D03",
+    "Matricula": "171245",
+    "ID_Alumno": "113"
+  },
+  {
+    "Nomenclatura_Archivo": "2D04",
+    "Matricula": "182068",
+    "ID_Alumno": "114"
+  },
+  {
+    "Nomenclatura_Archivo": "2D05",
+    "Matricula": "161240",
+    "ID_Alumno": "115"
+  },
+  {
+    "Nomenclatura_Archivo": "2D06",
+    "Matricula": "243148",
+    "ID_Alumno": "116"
+  },
+  {
+    "Nomenclatura_Archivo": "2D07",
+    "Matricula": "171120",
+    "ID_Alumno": "117"
+  },
+  {
+    "Nomenclatura_Archivo": "2D08",
+    "Matricula": "192097",
+    "ID_Alumno": "118"
+  },
+  {
+    "Nomenclatura_Archivo": "2D09",
+    "Matricula": "202178",
+    "ID_Alumno": "119"
+  },
+  {
+    "Nomenclatura_Archivo": "2D10",
+    "Matricula": "212176",
+    "ID_Alumno": "120"
+  },
+  {
+    "Nomenclatura_Archivo": "2D11",
+    "Matricula": "243020",
+    "ID_Alumno": "121"
+  },
+  {
+    "Nomenclatura_Archivo": "2D12",
+    "Matricula": "171052",
+    "ID_Alumno": "122"
+  },
+  {
+    "Nomenclatura_Archivo": "2D13",
+    "Matricula": "192061",
+    "ID_Alumno": "123"
+  },
+  {
+    "Nomenclatura_Archivo": "2D14",
+    "Matricula": "171031",
+    "ID_Alumno": "124"
+  },
+  {
+    "Nomenclatura_Archivo": "2D15",
+    "Matricula": "202153",
+    "ID_Alumno": "125"
+  },
+  {
+    "Nomenclatura_Archivo": "2D16",
+    "Matricula": "222353",
+    "ID_Alumno": "126"
+  },
+  {
+    "Nomenclatura_Archivo": "2D17",
+    "Matricula": "182089",
+    "ID_Alumno": "127"
+  },
+  {
+    "Nomenclatura_Archivo": "2D18",
+    "Matricula": "222145",
+    "ID_Alumno": "128"
+  },
+  {
+    "Nomenclatura_Archivo": "2D19",
+    "Matricula": "243120",
+    "ID_Alumno": "129"
+  },
+  {
+    "Nomenclatura_Archivo": "2D20",
+    "Matricula": "243069",
+    "ID_Alumno": "130"
+  },
+  {
+    "Nomenclatura_Archivo": "2D21",
+    "Matricula": "232032",
+    "ID_Alumno": "131"
+  },
+  {
+    "Nomenclatura_Archivo": "2D22",
+    "Matricula": "161245",
+    "ID_Alumno": "132"
+  },
+  {
+    "Nomenclatura_Archivo": "2D23",
+    "Matricula": "222277",
+    "ID_Alumno": "133"
+  },
+  {
+    "Nomenclatura_Archivo": "2D24",
+    "Matricula": "1406010",
+    "ID_Alumno": "134"
+  },
+  {
+    "Nomenclatura_Archivo": "2D25",
+    "Matricula": "171008",
+    "ID_Alumno": "135"
+  },
+  {
+    "Nomenclatura_Archivo": "2D26",
+    "Matricula": "253095",
+    "ID_Alumno": "136"
+  },
+  {
+    "Nomenclatura_Archivo": "2D27",
+    "Matricula": "182379",
+    "ID_Alumno": "137"
+  },
+  {
+    "Nomenclatura_Archivo": "2D28",
+    "Matricula": "243008",
+    "ID_Alumno": "138"
+  },
+  {
+    "Nomenclatura_Archivo": "2D29",
+    "Matricula": "171319",
+    "ID_Alumno": "139"
+  },
+  {
+    "Nomenclatura_Archivo": "2D30",
+    "Matricula": "222331",
+    "ID_Alumno": "140"
+  },
+  {
+    "Nomenclatura_Archivo": "2D31",
+    "Matricula": "192329",
+    "ID_Alumno": "141"
+  },
+  {
+    "Nomenclatura_Archivo": "2D32",
+    "Matricula": "161283",
+    "ID_Alumno": "142"
+  },
+  {
+    "Nomenclatura_Archivo": "2D33",
+    "Matricula": "243024",
+    "ID_Alumno": "143"
+  },
+  {
+    "Nomenclatura_Archivo": "2D34",
+    "Matricula": "202154",
+    "ID_Alumno": "144"
+  },
+  {
+    "Nomenclatura_Archivo": "2D35",
+    "Matricula": "182152",
+    "ID_Alumno": "145"
+  },
+  {
+    "Nomenclatura_Archivo": "2D36",
+    "Matricula": "182365",
+    "ID_Alumno": "146"
+  },
+  {
+    "Nomenclatura_Archivo": "2D37",
+    "Matricula": "171018",
+    "ID_Alumno": "147"
+  }
+]
