@@ -1,0 +1,95 @@
+{
+  "archivo": "PAQUETE_FINAL_Consulta_Conocimiento_2Sec_v3.json",
+  "version": "3.1.0",
+  "paired_system_prompt_file": "PAQUETE_FINAL_SystemPrompt_Agente_Evaluador_Ensayos_2Sec_v3.md",
+  "paired_output_schema_file": "PAQUETE_FINAL_OutputSchema_Agente_Evaluador_Ensayos_2Sec_v3.json",
+  "purpose": "Contrato de consulta para resolver la identidad anónima del alumno a partir de la nomenclatura del archivo en 2.º de secundaria y entregar el ID al System Prompt antes de iniciar la verificación manuscrito vs digital.",
+  "knowledge_base_source": {
+    "file_name": "PAQUETE_FINAL_KB_2Sec_Relacion_Matricula_Nomenclatura_ID_Alumno_v2.json",
+    "description": "Base maestra de relación entre Nomenclatura_Archivo, Matricula e ID_Alumno para 2.º de secundaria.",
+    "required_fields": [
+      "Nomenclatura_Archivo",
+      "Matricula",
+      "ID_Alumno"
+    ]
+  },
+  "dataset_profile": {
+    "nivel": "Secundaria",
+    "grado": "2",
+    "grupos_validos": [
+      "2A",
+      "2B",
+      "2C",
+      "2D"
+    ],
+    "total_registros": 147,
+    "id_alumno_formato": {
+      "tipo": "texto",
+      "longitud": 3,
+      "rango": [
+        "001",
+        "147"
+      ]
+    }
+  },
+  "primary_lookup_rule": {
+    "campo_entrada": "Nomenclatura_Archivo",
+    "tipo_coincidencia": "exacta",
+    "normalizacion_entrada": [
+      "trim",
+      "uppercase",
+      "remover_espacios_internos"
+    ],
+    "patron_esperado_regex": "^2[A-D](0[1-9]|[1-2][0-9]|3[0-7])$",
+    "ejemplos_validos": [
+      "2A01",
+      "2B07",
+      "2C31",
+      "2D37"
+    ]
+  },
+  "secondary_lookup_rule": {
+    "uso": "solo_verificacion_auxiliar",
+    "campo": "Matricula",
+    "permitido": true,
+    "prohibido_como_llave_primaria": true,
+    "descripcion": "La matrícula puede servir para contrastar registros, pero la resolución principal del caso debe hacerse por nomenclatura del archivo."
+  },
+  "resolution_contract": {
+    "success_returns": [
+      "Nomenclatura_Archivo",
+      "Matricula",
+      "ID_Alumno"
+    ],
+    "do_not_return": [
+      "Nombre",
+      "Apellidos",
+      "Grupo como nombre de salón ampliado"
+    ],
+    "anonymization_rule": "Nunca exponer nombres; solo usar Nomenclatura_Archivo e ID_Alumno."
+  },
+  "failure_modes": {
+    "archivo_no_identificado": {
+      "when": [
+        "no se puede extraer la nomenclatura",
+        "la nomenclatura no coincide con el patrón esperado",
+        "la nomenclatura no existe en la base"
+      ],
+      "required_output_fields": {
+        "Estatus_Revision": "archivo_no_identificado",
+        "ID_Alumno": null,
+        "Puntaje_Total": null,
+        "Nivel_Global": "No evaluable"
+      }
+    }
+  },
+  "interaction_protocol_with_system_prompt": {
+    "step_1": "Extraer la nomenclatura del nombre del archivo.",
+    "step_2": "Normalizar la nomenclatura (trim + uppercase + sin espacios internos).",
+    "step_3": "Validar contra el regex oficial.",
+    "step_4": "Consultar la base `PAQUETE_FINAL_KB_2Sec_Relacion_Matricula_Nomenclatura_ID_Alumno_v2.json` por coincidencia exacta de `Nomenclatura_Archivo`.",
+    "step_5": "Si hay coincidencia, devolver `ID_Alumno` y continuar al System Prompt.",
+    "step_6": "El System Prompt diagnostica causa de ilegibilidad, calcula cobertura legible, probabilidad de alteración y decide el resultado de verificación.",
+    "step_7": "El Output Schema obliga a devolver un JSON consistente con esa decisión."
+  }
+}
